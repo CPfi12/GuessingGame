@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Users/clairejpfister/Downloads/bootstrap-3.3.7-dist/css/bootstrap.css">
+    
+  </head>
+  <body>
+    
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <h1 id='title'>Guessing Game!</h1>
+          <h2 id='subtitle'>Guess a number between 1 and 100</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+             <input id = 'playersinput' autofocus = "autofocus" maxlength = 3 placeholder=':)' class="center">
+             <button class="btn btn-success btn-sm center" id='submit' type="button" >Go!</button> 
+          </div>
+
+          <div id='guesses'>
+             <ul id='guesslist'>
+              <li class="guess">*</li>
+              <li class="guess">*</li>
+              <li class="guess">*</li>
+              <li class="guess">*</li>
+              <li class="guess">*</li>
+            </ul> 
+          </div>
+
+          <div id="menu-btns">
+             <button class="btn btn-default btn-sm" type="reset" id ='reset'>Reset</button> 
+              <button class="btn btn-default btn-sm" type="hint" id='hint'>Hint</button> 
+          </div>
+        </div>
+      </div>
+
+
+
+    <div  id='footer' class='center container-fluid'>
+        <div class='row'>
+          <div class="col-md-4" class=''>
+            <img id='fullstack' src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class="col-md-4" class=''>
+            <h4>Project by Claire Pfister</h4>
+          </div>
+
+          <div class="col-md-4" class=''>
+            <img id = 'grace' src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+  <!--<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>!-->
+
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="/Users/clairejpfister/GuessingGameJS/GuessingGame-Part2/GuessingGame.js"></script>
+  
+  </body>
+</html>
